@@ -1,0 +1,34 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.form input {
+  padding: 10px 5px;
+  font-size: 1.8rem;
+  border: none;
+  border: 1px solid #ddd;
+}
+
+.form input:focus {
+  outline: none;
+  box-shadow: 0 0 1px 1px blueviolet;
+}
+.form input[type="submit"] {
+  padding: 10px 20px;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  color: #fff;
+  border: none;
+  background-color: blueviolet;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.form input[type="submit"]:hover {
+  background-color: rgb(66, 11, 117);
+}
+.form .action_box {
+  text-align: end;
+}

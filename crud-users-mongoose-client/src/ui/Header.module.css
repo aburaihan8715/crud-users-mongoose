@@ -1,0 +1,30 @@
+.navbar {
+  background-color: rgb(147, 167, 113);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.logo_link {
+  text-decoration: none;
+  color: brown;
+  display: inline-block;
+}
+.logo_link h1 {
+  display: inline-block;
+}
+
+.add_user_link {
+  padding: 10px 20px;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  background-color: blueviolet;
+  transition: all 0.3s;
+}
+
+.add_user_link:hover {
+  background-color: rgb(66, 11, 117);
+}
